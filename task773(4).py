@@ -1,0 +1,6 @@
+Insert = input()
+numbers = Insert.split()
+K = int(numbers[0])
+M = int(numbers[1])
+Count = M*(K**2)
+print(Count)
